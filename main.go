@@ -20,6 +20,7 @@ func main() {
 
 	stringInput := flag.Args()[0]
 
+	fmt.Print()
 	// Variable to track if the flag was set
 	var nameSet bool
 	var flagSet bool = false
